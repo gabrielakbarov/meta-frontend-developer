@@ -1,5 +1,5 @@
 body {
-  background-color: #62676A;
+  background-color: #4b4a46;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -36,7 +36,6 @@ main {
   top: -4%;
   left: 1%;
   width: 80%;
-  color: white;
   text-align: left;
 }
 
@@ -50,7 +49,6 @@ main {
   line-height: 1.5;
   margin: 0;
 }
-
 
 
 .top-left {
@@ -119,6 +117,7 @@ div img {
 .info-img {
   max-height: 280px;
   max-width: 280px;
+  margin-bottom: 8px;
 }
 
 article:hover {
@@ -149,3 +148,43 @@ footer p {
   margin-right: 10px;
 }
 
+.location-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.location-article {
+  background-color: #debfab;
+  border-radius: 18px;
+
+  max-width: 300px;
+}
+
+.location-img {
+  border-radius: 18px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.locations-box {
+  position: relative;
+  background-color: #c5704a;
+  border-radius: 18px;
+  margin-top: 40px; /* Abstand über der oberen Reihe */
+  margin-bottom: 40px; /* Abstand unter der unteren Reihe */
+  padding: 10px; /* Optional: Innenabstand für besseren Look */
+}
+
+.light-text {
+  color: #fbfaef;
+}
+
+.lm { margin-left: 15px}
+
+.locations-text-container {
+  position: absolute;
+  top: -3%;
+  left: 0%;
+  color: white;
+  text-align: left;
+}
